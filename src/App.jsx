@@ -9,7 +9,7 @@ import { AuthData } from './context/AuthProvider'
 const App = () => {
   
    const [userData,setUserData]=useContext(AuthData) 
-  //  const {USER}=useAuth0();
+  
   
   
    const [user, setUser] = useState(null)
