@@ -1,4 +1,3 @@
-import React, { useContext } from 'react'
 import AcceptTask from './AcceptTask'
 import CompleteTask from './CompleteTask'
 import NewTask from './NewTask'
@@ -6,7 +5,7 @@ import FailedTask from './FailedTask'
 
 
 const TaskList = (props) => {
- 
+
   return (
     <div id='tasklist' className='flex flex-nowrap scrollbar-hide items-center m-5 overflow-x-auto w-full h-80 gap-5'>
       {props.data.tasks.map(function(elem,idx){
